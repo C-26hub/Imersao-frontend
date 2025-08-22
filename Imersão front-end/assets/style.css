@@ -88,4 +88,10 @@ ul li::before {
   justify-content: right;
 }
 
-/* Mudar cor do Botão ao passar o cursor */
+/* Botão desaparecer quando imprimir o curriculo*/
+@media print{
+  #bnt-print{
+    display: none;
+    visibility: hidden;
+  }
+}
